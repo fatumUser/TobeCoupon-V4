@@ -9726,8 +9726,8 @@ select {
   }
 }
 .notFoudnPage {
-  padding-top: 58px;
-  padding-bottom: 80px;
+  padding-top: 38px;
+  padding-bottom: 101px;
 }
 @media only screen and (max-width:700px) {
   .notFoudnPage {
