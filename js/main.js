@@ -96,7 +96,7 @@ let options = { threshold: [0.2] };
 let observer = new IntersectionObserver(onEntry, options);
 let elements =
 document.querySelectorAll(
-  '.article, .shops-col, .main-btn, .banners, .about, .faq-accordeon, .coupons-col__wrap, .content-img, .brand-content__info, .banner-sale'); /*''*/
+  '.article, .shops-col, .main-btn, .banners, .about, .faq-accordeon, .coupons-col__wrap, .content-img, .brand-content__info, .banner-sale, .brand-content__block-info'); /*''*/
 for (let elm of elements) {
   observer.observe(elm);
 }
