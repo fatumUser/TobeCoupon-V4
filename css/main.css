@@ -5344,7 +5344,9 @@ select {
     line-height: 24px;
   }
 }
-.breadcrumbs li a span {
+.breadcrumbs li span {
+  font-size: 16px;
+  font-weight: 400;
   color: #A2A2A2;
 }
 .breadcrumbs li a:hover {
@@ -6357,6 +6359,11 @@ select {
   display: flex;
   align-items: center;
   padding-bottom: 8px;
+ 
+}
+.brand-content__list li a:hover {
+  color: #ffad00;
+  text-decoration: none;
 }
 .brand-content__list li p {
   padding: 0;
@@ -6369,6 +6376,8 @@ select {
   font-size: 16px;
   font-weight: 600;
   color: #ffc346;
+  transition-property: color;
+  transition-duration: 0.3s;
   text-decoration: underline;
 }
 .brand-content__list li a span {
@@ -9769,11 +9778,13 @@ select {
 }
 .notFound-info p a {
   color: #ffc346;
+  transition-property: color;
+  transition-duration: 0.3s;
   text-decoration: underline;
 }
 .notFound-info p a:hover {
   color: #ffad00;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .notFound-title {
   font-size: 24px;
