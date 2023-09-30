@@ -5635,6 +5635,8 @@ select {
   padding-bottom: 44px;
 }
 .content-show {
+  transition-property: opacity;
+  transition-duration: 2s;
   opacity: 1 !important;
   /*-webkit-transform: translateY(0px) !important;
   transform: translateY(0px) !important;*/
@@ -9771,6 +9773,7 @@ select {
 }
 .notFound-info p a:hover {
   color: #ffad00;
+  text-decoration: underline;
 }
 .notFound-title {
   font-size: 24px;
@@ -10751,6 +10754,11 @@ ul.pagination li.disabled span {
   margin-top: 31px;
   margin-bottom: 0;
   background: #ffc346;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+.banner-cyber-monday__btn:hover {
+  background-color: #ffad00;
 }
 .banner-sale__btn {
   display: flex;
@@ -10759,6 +10767,11 @@ ul.pagination li.disabled span {
   border-radius: 64px;
   margin-top: 24px;
   background: #ffc346;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+.banner-sale__btn:hover {
+  background-color: #ffad00;
 }
 .banner-cyber-monday__btn p,
 .banner-sale__btn p {
@@ -10766,6 +10779,7 @@ ul.pagination li.disabled span {
   font-weight: 600;
   padding: 0 !important;
   margin: auto;
+  color: #333;
 }
 
 /* ПЛАВНОЕ ПОЯВЛЕНИЕ ЭЛЕМЕНТОВ ПРИ СКРОЛЛЕ */
@@ -10782,6 +10796,7 @@ ul.pagination li.disabled span {
   width: 1160px;
   margin: 0 auto;
   padding: 58px 0px 80px;
+  opacity: 0;
 }
 .special-off__img-block {
   display: grid;
@@ -10830,6 +10845,11 @@ ul.pagination li.disabled span {
   font-weight: 400;
   line-height: 24px;
   color: #333;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+.special-offers-catalog__block a:hover {
+  color: #FFC346;
 }
 .special-offers-catalog__block__title {
   font-size: 24px !important;
@@ -10887,5 +10907,8 @@ ul.pagination li.disabled span {
   }
   .special-off__img-mob {
     display: block;
+  }
+  .special-offers-catalog__block ul {
+    padding-top: 0;
   }
 }
