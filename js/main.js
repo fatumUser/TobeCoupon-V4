@@ -23,6 +23,10 @@ function ContentLoaded_BlogPage() {
 function ContentLoaded_BlogArticlePage() {
   document.getElementById("catalog_blog-article").classList.toggle("content-show");
 }
+function ContentLoaded_SpecialOffersPage() {
+  document.getElementById("special-offers-page").classList.toggle("content-show");
+}
+
 
 document.addEventListener("DOMContentLoaded", ContentLoaded);
 document.addEventListener("DOMContentLoaded", ContentLoadedAlphabet);
@@ -32,6 +36,7 @@ document.addEventListener("DOMContentLoaded", ContentLoaded_FaqPage);
 document.addEventListener("DOMContentLoaded", ContentLoaded_StoreCouponPage);
 document.addEventListener("DOMContentLoaded", ContentLoaded_BlogPage);
 document.addEventListener("DOMContentLoaded", ContentLoaded_BlogArticlePage);
+document.addEventListener("DOMContentLoaded", ContentLoaded_SpecialOffersPage);
 
 function dropBlock() {
   document.getElementById("drop-block").classList.toggle("drop-block-show");
