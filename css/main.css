@@ -2152,6 +2152,9 @@ select {
 .brand-content__info {
   opacity: 0;
 }
+.brand-content__block-info {
+  opacity: 0;
+}
 .brand-content h2 {
   font-size: 24px;
   line-height: 1.2;
@@ -3705,7 +3708,7 @@ select {
   }
 }
 .shops {
-  padding-top: 53px;
+  padding-top: 33px;
   padding-bottom: 56px;
   opacity: 0.4;
   transition: opacity 0.8s ease-in-out,-webkit-transform 0.8s ease-in-out;
@@ -5438,6 +5441,9 @@ select {
 }
 .sidebar ul li a:hover {
   color: #ffc346;
+}
+.sidebar ul li a:hover i .svg-m {
+  fill: #ffc346;
 }
 .sidebar ul li a:hover svg g {
   opacity: 1;
@@ -10466,21 +10472,14 @@ ul.pagination li.disabled span {
 
 .banners {
   display: flex;
- /* width: 1160px;
-  height: 283px; */ 
   margin: 0 auto;
-  /*background: #ac89ce;*/
   margin-bottom: 52px;
   opacity: 0;
 }
 .banner-1,
 .banner-2 {
   width: 564px;
- /* height: 100%; */
 }
-/*.banners-img-1 {
-  margin-right: 32px;
-}*/
 .banner-1 {
   margin-right: 32px;
 }
@@ -10558,7 +10557,6 @@ ul.pagination li.disabled span {
     margin-top: 3%;
     margin-left: 30px;
   }
-  
   .banners__button {
     margin-top: 13px;
   }
@@ -10586,13 +10584,11 @@ ul.pagination li.disabled span {
 @media only screen and (max-width: 634px) {
   .banners {
     display: block;
-    /*height: 582px;*/
     margin-bottom: 46px;
   }
   .banner-1,
   .banner-2 {
     width: 100%;
-   /* height: 283px; */
   }
   .banner-1 {
     margin-bottom: 14px;
@@ -10656,6 +10652,7 @@ ul.pagination li.disabled span {
 }
 
 /* BANNER CYBER MONDAY */
+
 .banner-cyber-monday,
 .banner-sale {
   display: grid;
@@ -10672,7 +10669,6 @@ ul.pagination li.disabled span {
 .banner-cyber-monday__content {
   width: 284px;
   height: auto;
-  /*background: #5b11a6;*/
   grid-column: 1/2;
   grid-row: 1/2;
   z-index: 10;
@@ -10781,6 +10777,7 @@ ul.pagination li.disabled span {
 }
 
 /* Special Offers Page */
+
 .special-offers-page {
   width: 1160px;
   margin: 0 auto;
@@ -10818,8 +10815,6 @@ ul.pagination li.disabled span {
 .special-offers-catalog__block {
   margin-bottom: 0px;
   margin-right: 0px; 
- /* background: #c2a5df69;
-  border: 2px solid rgba(222, 184, 135, 0.377);*/
 }
 .special-offers-catalog__block ul {
   padding-top: 56px;
