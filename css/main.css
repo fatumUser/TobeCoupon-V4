@@ -10321,6 +10321,7 @@ ul.pagination li.disabled span {
 }
  
 .header-list__drop-block__content__cell img {
+    width: 24px;
     padding-right: 12px;
 }
 .header-list__drop-block__content__cell svg {
